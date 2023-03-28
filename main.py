@@ -1,11 +1,6 @@
+# brand: str = "Amigoscode".... ex of explicit typing in Py
+#ex of Dynamic typing in Py. Type is checked @ run-time as oppose to compile time like in Java
 brand = "Amigoscode"
-age = 2
-pi = 3.14
-numbers = []
-isAdult = True
-
-print(type(brand))
-print(type(age))
-print(type(pi))
-print(type(numbers))
-print(type(isAdult))
+isAdult: bool = False
+def hello():
+    return "Hello"
