@@ -1,23 +1,11 @@
-words = "Sandy " \
-    "Woods"
-print(words)
+import keyword
 
-words1 = """
-Sandy
-Woods
-"""
-print(words1)
 
-email =f"""
-Yellow {words}, 
-how are you?
-It was nice visiting you
-"""
-print(email)
-email =f"""
-Yellow {words}, 
-how are you?
-It was nice visiting you
-age{4*4}, right?
-"""
-print(email)
+# indentation
+def my_function():
+    name = "Maria"
+    surname = "Jamila"
+
+
+# Reserved Keywords
+print(keyword.kwlist)
