@@ -1,5 +1,10 @@
-# Java: System.out.println((10 > 5) && (1>3); --> False
-print(10 > 5 and (1 > 3))
-print(10 > 5 and (1 < 3) and 'A'== 'a')
-print(10 > 5 and (1 < 3) or 'A'== 'a')
-print(3 != 3)
+"""brand = "Amigoscode"
+brand = "Nike"
+print(brand)"""
+number = 0
+number += 1 #Same as number = number +1 or number++; in Java
+print(number)
+number += 3
+print(number)
+number **=3 # Guess you said f squares and went str8 to cube 2^3
+print(number)
