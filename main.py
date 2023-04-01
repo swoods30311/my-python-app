@@ -9,11 +9,10 @@ numbers = [number, number_second, number_third, number_fourth, 18, 46]
 print(numbers)
 numbers.append(110)
 print(numbers)
-print(len(numbers))
-numbers.sort()
+numbers.remove(number_third)
 print(numbers)
-print(110 in numbers)
-print(numbers[0])
-print(type(numbers[4]))
-numbers.clear()
+numbers.pop() #110 was popped. Does this mean Pythons list use stack data structure by default?
+del numbers[0]
+del numbers[1]
+numbers.pop()
 print(numbers)
