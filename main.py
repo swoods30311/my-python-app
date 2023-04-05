@@ -1,9 +1,8 @@
-person = {
-    "name": "Sandy",
-    "age": 34,
-    "address": "USA"
+firstNumber = 16
+number = 24
 
-}
-#come back and debug once you get fire w/ Python
-for key in person:
-    print(f"key:{key} value:{person[key]}")
+while number > firstNumber:
+    print(number)
+    number-= 1
+
+
