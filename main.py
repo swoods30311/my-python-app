@@ -1,5 +1,4 @@
-name = "Big Slimoid"
-def greeting (name):
-    return "What it do " + name + "?"
+import math
 
-print(greeting(name))
+print(math.pi)
+print(math.sqrt(64))
