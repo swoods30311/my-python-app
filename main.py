@@ -1,5 +1,5 @@
-name = "Sandy"
+name = "Big Slimoid"
 def greeting (name):
-    print(f"Hello {name}")
+    return "What it do " + name + "?"
 
-greeting(name)
+print(greeting(name))
